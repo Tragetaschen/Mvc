@@ -5,11 +5,11 @@
     "warningsAsErrors": true
   },
   "dependencies": {
-    "Microsoft.AspNet.Http": "1.0.0-*",
-    "Microsoft.AspNet.Http.Extensions": "1.0.0-*",
-    "Microsoft.AspNet.Mvc.Common": { "version": "6.0.0-*", "type": "build" },
-    "Microsoft.Framework.DependencyInjection": "1.0.0-*",
-    "Microsoft.Net.Http.Headers": "1.0.0-*",
+    "Microsoft.AspNet.Http": "1.0.0-beta3",
+    "Microsoft.AspNet.Http.Extensions": "1.0.0-beta3",
+    "Microsoft.AspNet.Mvc.Common": { "version": "6.0.0-beta3", "type": "build" },
+    "Microsoft.Framework.DependencyInjection": "1.0.0-beta3",
+    "Microsoft.Net.Http.Headers": "1.0.0-beta3",
     "Newtonsoft.Json": "6.0.6"
   },
   "frameworks": {
@@ -18,17 +18,6 @@
         "System.ComponentModel.DataAnnotations": "",
         "System.Xml": "",
         "System.Runtime.Serialization": ""
-      }
-    },
-    "aspnetcore50": {
-      "dependencies": {
-        "System.Collections.Concurrent": "4.0.10-beta-*",
-        "System.ComponentModel.Annotations": "4.0.10-beta-*",
-        "System.ComponentModel.TypeConverter": "4.0.0-beta-*",
-        "System.Reflection.TypeExtensions": "4.0.0-beta-*",
-        "System.Runtime.Serialization.Primitives": "4.0.0-beta-*",
-        "System.Runtime.Serialization.Xml": "4.0.10-beta-*",
-        "System.Xml.XmlSerializer": "4.0.10-beta-*"
       }
     }
   }

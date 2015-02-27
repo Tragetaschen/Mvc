@@ -5,20 +5,15 @@
         "warningsAsErrors": false
     },
     "dependencies": {
-        "Microsoft.AspNet.Mvc.Common": { "version": "6.0.0-*", "type": "build" },
-        "Microsoft.AspNet.Mvc.Core": "6.0.0-*",
-        "Microsoft.AspNet.Mvc.ModelBinding": "6.0.0-*",
+        "Microsoft.AspNet.Mvc.Common": { "version": "6.0.0-beta3", "type": "build" },
+        "Microsoft.AspNet.Mvc.Core": "6.0.0-beta3",
+        "Microsoft.AspNet.Mvc.ModelBinding": "6.0.0-beta3",
         "Microsoft.AspNet.WebApi.Client": "5.2.2"
     },
     "frameworks": {
         "aspnet50": {
             "frameworkAssemblies": {
                 "System.Net.Http": "4.0.0.0"
-            }
-        },
-        "aspnetcore50": {
-            "dependencies": {
-                "System.Net.Http": "4.0.0-beta-*"
             }
         }
     }
