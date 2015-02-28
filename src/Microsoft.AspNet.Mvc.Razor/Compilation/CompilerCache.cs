@@ -159,7 +159,7 @@ namespace Microsoft.AspNet.Mvc.Razor
 
             var cacheEntry = new CompilerCacheEntry(file, result.CompiledType)
             {
-                AssociatedViewStartEntry = GetCompositeViewStartEntry(normalizedPath, compile)
+                AssociatedViewStartEntry = GetCompositeViewStartEntry(file.RelativePath, compile)
             };
 
             // The cache is a concurrent dictionary, so concurrent addition to it with the same key would result in a
