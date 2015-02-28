@@ -173,7 +173,8 @@ namespace Microsoft.AspNet.Mvc.Razor
                             RelativePath = fileInfo.RelativePath,
                             LastModified = fileInfo.FileInfo.LastModified,
                             Length = fileInfo.FileInfo.Length,
-                            FullTypeName = fullTypeName
+                            FullTypeName = fullTypeName,
+                            Hash = hash
                         };
 
                         return new PrecompilationCacheEntry(razorFileInfo, syntaxTree);
